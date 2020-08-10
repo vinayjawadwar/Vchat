@@ -1,0 +1,82 @@
+
+
+
+body{
+    height: 100vh;
+    background-image:linear-gradient(rgb(255,255,255),rgb(0, 238, 255));
+    overflow-y: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo{
+display: block;
+margin: auto;
+width:100px;
+height:100px;
+}
+
+
+
+.container{
+    max-width: 955px;
+    background-color: aquamarine;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid rgb(16, 114, 109);
+    border-radius: 10px;
+    overflow-y: scroll;
+    margin-bottom:3px;
+}
+
+
+.message{
+background-color: burlywood;
+margin: 20px;
+width: 30%;
+border:2px solid black;
+padding: 10px;
+border-radius: 10px;
+font-size:22px;
+font-family: monospace;
+}
+
+.left{
+
+float: left;
+clear: both;
+}
+
+.right{
+float: right;
+clear: both;
+
+}
+
+#send-container{
+    display: block;
+    text-align: center;
+    max-width: 985px;
+    widows: 200px;
+    margin: auto;
+}
+
+#messageInp{
+    width:80%;
+    height:5vh;
+    border-radius: 10px;
+    font-size:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.btn{
+
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 5vh;
+    width: 10%;
+    background-color: cornflowerblue;
+}
